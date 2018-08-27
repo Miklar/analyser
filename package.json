@@ -1,22 +1,27 @@
 {
-  "name": "analyser",
+  "name": "analyzer",
   "version": "1.0.0",
   "description": "As smurfalizer, but fun.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Miklar/analyser.git"
+    "url": "git+https://github.com/Miklar/analyzer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Miklar/analyser/issues"
+    "url": "https://github.com/Miklar/analyzer/issues"
   },
-  "homepage": "https://github.com/Miklar/analyser#readme",
+  "homepage": "https://github.com/Miklar/analyzer#readme",
   "dependencies": {
     "hapi": "^17.5.3"
+  },
+  "now": {
+    "public": true,
+    "alias": "analyzer.miklar.com"
   }
 }
