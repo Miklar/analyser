@@ -35,8 +35,4 @@ jobs:
         
       # run tests!
       - run: npm test
-    
-      - run: now
-
-      - run: now alias
 
